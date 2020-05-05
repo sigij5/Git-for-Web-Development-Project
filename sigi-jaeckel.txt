@@ -96,7 +96,7 @@ Stretch Questions
     2. What happens when an element is positioned absolutely? 
     It is removed from the document flow, and is positioned to the starting point of its parent element or the page.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    Using the box model to edit margin and padding, and add a width
+    By putting it in a section within a sections box model maybe.  Or using a fixed position, or border-box.
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     Default to block: <p>,<address>,<h1>     Default to inline: <span>,<button>,<abbr>,  Inline-block: <img>
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
